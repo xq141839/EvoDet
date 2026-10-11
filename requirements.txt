@@ -1,0 +1,13 @@
+torch==2.5.1
+torchvision==0.20.1
+
+# Engine dependencies
+PyYAML
+scipy
+numpy
+opencv-python
+Pillow
+
+# Optional: COCO evaluation through the vendored engine (not required for
+# inference/test_endo.py, which ships a dependency-free COCO mAP implementation)
+# faster-coco-eval>=1.6.7

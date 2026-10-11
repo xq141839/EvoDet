@@ -1,0 +1,23 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Checkpoints & data (large / licensed)
+ckpts/
+weights/*.pth
+weights/*.pt
+*.pth
+*.pt
+endo_coco/
+endoscapes/
+
+# Outputs
+vis/
+output/
+*.log
+
+# IDE
+.vscode/
+.idea/
